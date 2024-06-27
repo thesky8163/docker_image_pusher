@@ -1,6 +1,8 @@
-nginx
-#支持私库
-k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
-xhofe/alist:latest
+docker.elastic.co/elasticsearch/elasticsearch:8.11.4
+quay.io/coreos/etcd:v3.5.5
+minio/minio:RELEASE.2023-03-20T20-16-18Z
+milvusdb/milvus:v2.3.4
+mysql
+freeren/qanything:v1.2.2
 #支持指定架构
---platform=linux/arm64 xiaoyaliu/alist
+#--platform=linux/arm64 xiaoyaliu/alist
